@@ -1,0 +1,14 @@
+{
+  "name": "la-alba",
+  "version": "1.0.0",
+  "description": "La Alba - Taproom de barrio",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve",
+    "build": "echo 'No build needed for static site'",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
