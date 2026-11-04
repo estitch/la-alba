@@ -1,0 +1,19 @@
+{
+  "name": "la-alba",
+  "version": "1.0.0",
+  "description": "La Alba Taproom de barrio - Carta digital",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild speed-insights.js --bundle --format=esm --outfile=dist/speed-insights.bundle.js",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": ["taproom", "carta", "menu"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}

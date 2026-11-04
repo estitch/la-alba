@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build outputs (we include dist/ since it's needed for deployment)
+# dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
